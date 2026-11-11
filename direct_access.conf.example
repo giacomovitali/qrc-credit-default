@@ -1,0 +1,11 @@
+# QuEra direct-access submission credentials.
+#
+# Copy this file to `direct_access.conf` (untracked) and fill in the real
+# values, or export QRC_DIRECT_ACCESS_URL / QRC_DIRECT_ACCESS_KEY instead.
+# Point QRC_DIRECT_ACCESS_CONFIG at a different path to override the location.
+#
+# Only hardware submission reads this — emulation runs never touch it.
+# Never commit the filled-in file.
+
+url = "https://hooks.example.com/hooks/catch/XXXXXXXX/YYYYYYY/"
+key = "your-request-key-here"

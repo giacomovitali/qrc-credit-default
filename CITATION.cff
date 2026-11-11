@@ -1,0 +1,153 @@
+# Citation metadata (https://citation-file-format.github.io). Fields marked TODO are filled in at release.
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and the software itself."
+type: software
+title: "qrc-credit-default: code for 'Quantum Reservoir Computing for Credit Card Default Prediction on a Neutral Atom Platform'"
+abstract: >-
+  Quantum reservoir computing pipeline for credit-card default prediction. Tabular features are encoded
+  into the Hamiltonian of a Rydberg neutral-atom array through local detunings or atom positions, evolved
+  in emulation or on the QuEra Aquila analog quantum computer, and read out as single-site and two-site
+  observables that serve as features for classical classifiers.
+authors:
+  - family-names: "Vitali"
+    given-names: "Giacomo"
+    affiliation: "Fondazione LINKS, Torino, Italy; Politecnico di Torino, Torino, Italy"
+  - family-names: "Vercellino"
+    given-names: "Chiara"
+    affiliation: "Fondazione LINKS, Torino, Italy; Politecnico di Torino, Torino, Italy"
+  - family-names: "Viviani"
+    given-names: "Paolo"
+    affiliation: "Fondazione LINKS, Torino, Italy"
+  - family-names: "Terzo"
+    given-names: "Olivier"
+    affiliation: "Fondazione LINKS, Torino, Italy"
+  - family-names: "Montrucchio"
+    given-names: "Bartolomeo"
+    affiliation: "Politecnico di Torino, Torino, Italy"
+  - family-names: "Zaffaroni"
+    given-names: "Valeria"
+    affiliation: "Intesa Sanpaolo, Torino, Italy"
+  - family-names: "Cibrario"
+    given-names: "Francesca"
+    affiliation: "Intesa Sanpaolo, Torino, Italy"
+  - family-names: "Mattia"
+    given-names: "Christian"
+    affiliation: "Intesa Sanpaolo, Torino, Italy"
+  - family-names: "Ranieri"
+    given-names: "Giacomo"
+    affiliation: "Intesa Sanpaolo, Torino, Italy"
+  - family-names: "Sabatino"
+    given-names: "Alessandro"
+    affiliation: "Intesa Sanpaolo, Torino, Italy"
+  - family-names: "Bonazzi"
+    given-names: "Francesco"
+    affiliation: "Intesa Sanpaolo, Torino, Italy"
+  - family-names: "Corbelletto"
+    given-names: "Davide"
+    affiliation: "Intesa Sanpaolo, Torino, Italy"
+license: MIT
+repository-code: "https://github.com/giacomovitali/qrc-credit-default"
+version: "1.0.0"
+# date-released: TODO (YYYY-MM-DD, at release)
+# doi: TODO (Zenodo DOI of the software, assigned at release)
+keywords:
+  - quantum reservoir computing
+  - neutral atoms
+  - Rydberg atoms
+  - analog quantum computing
+  - credit risk
+  - machine learning
+references:
+  - type: dataset
+    title: "Data for: Quantum Reservoir Computing for Credit Card Default Prediction on a Neutral Atom Platform"
+    doi: "10.5281/zenodo.24131386"
+    license: CC-BY-4.0
+    authors:
+      - family-names: "Vitali"
+        given-names: "Giacomo"
+        affiliation: "Fondazione LINKS, Torino, Italy; Politecnico di Torino, Torino, Italy"
+      - family-names: "Vercellino"
+        given-names: "Chiara"
+        affiliation: "Fondazione LINKS, Torino, Italy; Politecnico di Torino, Torino, Italy"
+      - family-names: "Viviani"
+        given-names: "Paolo"
+        affiliation: "Fondazione LINKS, Torino, Italy"
+      - family-names: "Terzo"
+        given-names: "Olivier"
+        affiliation: "Fondazione LINKS, Torino, Italy"
+      - family-names: "Montrucchio"
+        given-names: "Bartolomeo"
+        affiliation: "Politecnico di Torino, Torino, Italy"
+      - family-names: "Zaffaroni"
+        given-names: "Valeria"
+        affiliation: "Intesa Sanpaolo, Torino, Italy"
+      - family-names: "Cibrario"
+        given-names: "Francesca"
+        affiliation: "Intesa Sanpaolo, Torino, Italy"
+      - family-names: "Mattia"
+        given-names: "Christian"
+        affiliation: "Intesa Sanpaolo, Torino, Italy"
+      - family-names: "Ranieri"
+        given-names: "Giacomo"
+        affiliation: "Intesa Sanpaolo, Torino, Italy"
+      - family-names: "Sabatino"
+        given-names: "Alessandro"
+        affiliation: "Intesa Sanpaolo, Torino, Italy"
+      - family-names: "Bonazzi"
+        given-names: "Francesco"
+        affiliation: "Intesa Sanpaolo, Torino, Italy"
+      - family-names: "Corbelletto"
+        given-names: "Davide"
+        affiliation: "Intesa Sanpaolo, Torino, Italy"
+  - type: dataset
+    title: "Default of Credit Card Clients"
+    authors:
+      - family-names: "Yeh"
+        given-names: "I-Cheng"
+    publisher:
+      name: "UCI Machine Learning Repository"
+    year: 2009
+    doi: "10.24432/C55S3H"
+    license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Quantum Reservoir Computing for Credit Card Default Prediction on a Neutral Atom Platform"
+  journal: "Advanced Quantum Technologies"
+  # year, volume, doi: TODO (at publication)
+  authors:
+    - family-names: "Vitali"
+      given-names: "Giacomo"
+      affiliation: "Fondazione LINKS, Torino, Italy; Politecnico di Torino, Torino, Italy"
+    - family-names: "Vercellino"
+      given-names: "Chiara"
+      affiliation: "Fondazione LINKS, Torino, Italy; Politecnico di Torino, Torino, Italy"
+    - family-names: "Viviani"
+      given-names: "Paolo"
+      affiliation: "Fondazione LINKS, Torino, Italy"
+    - family-names: "Terzo"
+      given-names: "Olivier"
+      affiliation: "Fondazione LINKS, Torino, Italy"
+    - family-names: "Montrucchio"
+      given-names: "Bartolomeo"
+      affiliation: "Politecnico di Torino, Torino, Italy"
+    - family-names: "Zaffaroni"
+      given-names: "Valeria"
+      affiliation: "Intesa Sanpaolo, Torino, Italy"
+    - family-names: "Cibrario"
+      given-names: "Francesca"
+      affiliation: "Intesa Sanpaolo, Torino, Italy"
+    - family-names: "Mattia"
+      given-names: "Christian"
+      affiliation: "Intesa Sanpaolo, Torino, Italy"
+    - family-names: "Ranieri"
+      given-names: "Giacomo"
+      affiliation: "Intesa Sanpaolo, Torino, Italy"
+    - family-names: "Sabatino"
+      given-names: "Alessandro"
+      affiliation: "Intesa Sanpaolo, Torino, Italy"
+    - family-names: "Bonazzi"
+      given-names: "Francesco"
+      affiliation: "Intesa Sanpaolo, Torino, Italy"
+    - family-names: "Corbelletto"
+      given-names: "Davide"
+      affiliation: "Intesa Sanpaolo, Torino, Italy"

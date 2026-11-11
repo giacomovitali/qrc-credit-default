@@ -1,0 +1,10 @@
+# Python environment for preprocessing, classification and analysis (Python 3.11).
+# Direct dependencies, pinned to the versions used for the article; pip resolves the rest.
+imbalanced-learn==0.12.3
+matplotlib==3.9.2
+numpy==2.1.1
+pandas==2.2.2
+scikit-learn==1.5.1
+scipy==1.14.1
+seaborn==0.13.2
+torch==2.4.0

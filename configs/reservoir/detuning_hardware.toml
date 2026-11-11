@@ -1,0 +1,25 @@
+# detuning encoding, hardware-protocol backend: noiseless
+# single-chain emulation of the submitted Aquila programs, plus shots sampled
+# from the exact states (seeded per datapoint). CARDS_30000: 29,601 samples.
+# Other shot counts: quantum_evolution/reduce_bitstrings.jl on the *_hwbits.jld2 file.
+#
+#   julia --project=. -t 28 quantum_evolution/run_reservoir.jl configs/reservoir/detuning_hardware.toml
+
+encoding = "detuning"
+backend = "hardware"
+n_shots = 1000
+shot_counts = [240, 1000]
+save_bitstrings = true
+seed = 1234
+input_dir = "dataset_aquila"
+sets = ["qpu_samples", "emulation_samples"]
+output_dir = "results/emulation"
+
+[layer]
+t_start = 0.0
+t_end = 2.5
+step = 0.5
+omega = 6.283185307179586   # 2π
+scale = 10.0
+delta = 7.641592653589793   # 4.5 + π
+delta_max = -9.0

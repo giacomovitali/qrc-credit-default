@@ -1,0 +1,20 @@
+# Detuning encoding, statevector backend with exact readout times
+#. CARDS_30000: both groups, 29,601 samples.
+#
+#   julia --project=. -t 28 quantum_evolution/run_reservoir.jl configs/reservoir/detuning_statevector.toml
+
+encoding = "detuning"
+backend = "statevector"
+readout_timing = "exact"
+input_dir = "dataset_aquila"
+sets = ["qpu_samples", "emulation_samples"]
+output_dir = "results/emulation"
+
+[layer]
+t_start = 0.0
+t_end = 2.5
+step = 0.5
+omega = 6.283185307179586   # 2π
+scale = 10.0
+delta = 7.641592653589793   # 4.5 + π
+delta_max = -9.0

@@ -1,0 +1,3 @@
+# CARDS_30000 split seeds (pre-registered): the first 10 seeds whose train-only
+# fit reproduces the published transforms (preprocessing/invariant_splits.py). CARDS_2500/1000 use seeds 1-10.
+8 95 170 197 242 254 265 277 287 371
