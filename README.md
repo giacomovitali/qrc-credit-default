@@ -86,7 +86,8 @@ classification logs behind every figure and table — are on Zenodo:
 
 ## Citation
 
-Please cite the article and, for the code, this repository; the metadata is in
+Please cite the article and, for the code, its archived release on Zenodo,
+[doi:10.5281/zenodo.24160009](https://doi.org/10.5281/zenodo.24160009); the metadata is in
 [`CITATION.cff`](CITATION.cff).
 
 ## License
